@@ -18,10 +18,32 @@
     <div class="container-md">
       <div class="row justify-content-center">
         <div class="col-md-4 d-flex justify-content-center">
-          <img src="/assets/hasdid.png" />
+          <img src="/assets/hasdid.png" class="m-5" />
         </div>
       </div>
       <div class="row">
+        <div class="col-md-6 d-flex  form-bg">
+          <div class="col">
+          <form action="https://getform.io/f/b44bb191-c2c9-476f-8148-fd45e89684be" method="POST">
+            <!--NickName Input-->
+            <label for="nickname" class="form-label">Nickname</label>
+            <input type="text" class="form-control" id="FormControlInput1" placeholder="nickname" aria-describedby="nickname" name="nickname">
+            <!--Twitter Handle-->
+            <label for="twitterhandle" class="form-label">Twitter handle</label>
+            <input type="text" class="form-control" id="twitterhandle" placeholder="twitterhandle" aria-describedby="twitterhandle" name="twitterhandle">
+            <!--Chia Offer-->
+            <label for="chiaoffer" class="form-label">Chia Offer</label>
+            <textarea class="form-control" id="chiaoffer" rows="3" name="chiaoffer"></textarea>
+            <!--Email Address-->
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+          <!--Submit-->
+          <button type="submit" class="form-submit-btn">
+            Send
+          </button>   
+          </form>
+          </div>
+        </div>
         <div class="col-md-6 d-flex justify-content-center">
         <div class="col-md-12">
             <h1>FAQ</h1>
@@ -33,28 +55,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Pellentesque parturient dictumst ipsum</p>
         </div>
       </div>
-      <div class="col-md-6 d-flex  form-bg">
-        <div class="col">
-        <form action="https://getform.io/f/b44bb191-c2c9-476f-8148-fd45e89684be" method="POST">
-          <!--NickName Input-->
-          <label for="nickname" class="form-label">Nickname</label>
-          <input type="text" class="form-control" id="FormControlInput1" placeholder="nickname" aria-describedby="nickname" name="nickname">
-          <!--Twitter Handle-->
-          <label for="twitterhandle" class="form-label">Twitter handle</label>
-          <input type="text" class="form-control" id="twitterhandle" placeholder="twitterhandle" aria-describedby="twitterhandle" name="twitterhandle">
-          <!--Chia Offer-->
-          <label for="chiaoffer" class="form-label">Chia Offer</label>
-          <textarea class="form-control" id="chiaoffer" rows="3" name="chiaoffer"></textarea>
-          <!--Email Address-->
-          <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
-        <!--Submit-->
-        <button type="submit" class="form-submit-btn">
-          Send
-        </button>   
-        </form>
-        </div>
-      </div>
+      
     </div>
     <!--Bootstrap 5: Scripts-->
     <script
@@ -62,8 +63,14 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <!--Main Javascript-->
+    <script
+    src="main.js"
+   
+  ></script>
   </body>
 </html>
 
 
 
+<!-- curl -u https://api.getform.io/v1/forms/hasdid-form?token=https://getform.io/f/b44bb191-c2c9-476f-8148-fd45e89684be -->
