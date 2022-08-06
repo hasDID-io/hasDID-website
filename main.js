@@ -42,7 +42,7 @@ $(document).ready(function () {
     columns: [
       { title: "Nickname" },
       { title: "Twitterhandle" },
-      { title: "Chiadid" },
+      { title: "ChiaDID" },
       { title: "Project" },
       { title: "Status" },
     ],
