@@ -1,3 +1,10 @@
 .form-bg {
   background-color: #f8f8f8;
 }
+
+.custom-submit {
+  background-color: #7658ca;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+}
