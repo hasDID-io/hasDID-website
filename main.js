@@ -17,7 +17,7 @@ var dataSet = [
     "Jason",
     "@jason",
     "dkslfjdslkfdj32jlk34j2kl34jkl",
-    "jasonsprojecturl.com",
+    "jasonsprojecturl.com, multipleurl.com",
     "pending",
   ],
   [
@@ -28,7 +28,7 @@ var dataSet = [
     "pending",
   ],
   [
-    "Garrett Winters",
+    "Joseph holiday",
     "@winters",
     "dkslfjdslkfdj32jlk34j2kl34jkl",
     "wintersprojecturl.com",
@@ -43,7 +43,7 @@ $(document).ready(function () {
       { title: "Nickname" },
       { title: "Twitterhandle" },
       { title: "ChiaDID" },
-      { title: "Project" },
+      { title: "Project(s)" },
       { title: "Status" },
     ],
   });

@@ -12,3 +12,14 @@
   border: none;
   width: 100%;
 }
+
+.custom-link {
+  background-color: #7658ca;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #ffffff;
+}
