@@ -21,11 +21,11 @@ var dataSet = [
     "pending",
   ],
   [
-    "Liza300",
-    "@sparta",
-    "chia:did:1960xnya46euzyvwep63djtr7q20l2gcyl0stzcd04ad6hnj9cwnqmc6z0p",
-    "spartacturl.com",
-    "pending",
+    "scotopic",
+    "@scotopic",
+    "did:chia:1wm5sxf3kv24wng5ttmgea7f0j64ex44yey9ae57ex6d66r5ktr4qvr28tp",
+    "scotopic.xyz",
+    "verified",
   ],
   [
     "Joseph Holiday",
